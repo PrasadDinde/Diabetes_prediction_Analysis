@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn
 import os
 
 with open('Machine Learning/Supervised learning/Project_Predictive_Analysis_Diabetes/classification_model.pkl', 'rb') as f:
