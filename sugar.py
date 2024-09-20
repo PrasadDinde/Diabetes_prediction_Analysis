@@ -4,8 +4,8 @@ import pandas as pd
 import pickle
 import os
 
-with open('classification_model.pkl', 'rb') as fd:
-    model = pickle.load(fd)
+with open('classification_model.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 
 def make_prediction(outcome):
