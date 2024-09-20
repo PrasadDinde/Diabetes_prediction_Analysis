@@ -1,6 +1,6 @@
-!pip install scikit-learn
-!pip install xgboost
-!pip install lightgbm
+pip install scikit-learn
+pip install xgboost
+pip install lightgbm
 # Add more libraries as needed
 
 import sklearn
